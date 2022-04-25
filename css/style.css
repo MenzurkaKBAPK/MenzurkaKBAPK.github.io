@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,700;1,900&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	transition: 0.5s;
+}
+h2{
+	text-align: center;
+	font-style: italic;
+	font-weight: 900;
+}
+.tarifs-h2{
+	margin-top: 3%;
+	color: #4b0082;
+	font-style: normal;
+}
+caption{
+	font-size: 45px;
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 1%;
+	text-shadow: 2px 2px 2px gray;
+	color: #4b0082;
+}
+table{
+	width: 80%;
+	margin: 1% auto;
+	border-collapse: collapse;
+}
+tr{
+	background: white;
+}
+td,th{
+	text-align: center;
+	padding: 30px 10px 10px 10px;
+}
+td{
+	border: 1px dashed gray;
+	border-top: none;
+	width: 25%;
+}
+img{
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+body{
+	background: #aef0c4;
+	margin: 0;
+}
+.game{
+	width: 18%;
+	margin: 0.2%;
+	border: 2px solid #000;
+	border-radius: 15px;
+	background: #fff;
+	text-align: center;
+	padding-bottom: 1%;
+}
+.games{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.best-games{
+	margin-top: 3%;
+}
+.link{
+	background: #aef0c4;
+	border-radius: 15px;
+	color: #626961;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	text-decoration: none;
+	font-weight: bold;
+}
+.nav{
+	position: fixed;
+	background: #8dd7a6;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	top: 0;
+	padding: 1% 0;
+	transform: translateY(-90%);
+	border-radius: 0px 0px 10px 10px;
+}
+.nav a{
+	box-shadow: 3px 5px 3px 1px #812802;
+	border: 1px solid #000;
+	border-radius: 15px;
+	color: #812802;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.2% 0.5%;
+	width: fit-content;
+}
+.nav:hover{
+	transform: translateY(0);
+	background: #9ce4b4;
+}
+th{
+	color: white;
+	border-radius: 15px 15px 0px 0px;
+	height: 150px;
+	text-shadow: 2px 2px 2px gray;
+	font-size: 25px;
+}
+.basic{
+	background: #ff1083;
+}
+.pro{
+	background: #0083f5;
+}
+.gold{
+	background: #6400de;
+}
+.platinum{
+	background: #fca104;
+}
+.buy span{
+	box-shadow: 2px 2px 8px gray;
+	padding: 3%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+.buy td{
+	padding: 30px 15px 25px 15px;
+}
+.buy-link a{
+	border: 2px solid #000;
+	border-radius: 30px;
+	text-shadow: 2px 2px 2px gray;
+	padding: 5% 13%;
+	text-decoration: none;
+	color: white;
+	box-shadow: 1px 3px 4px gray;
+}
+.buy-link td{
+	padding: 50px 15px 45px 15px;
+}
+.gray{
+	background: #f5f5f5;
+}
